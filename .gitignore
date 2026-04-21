@@ -1,0 +1,21 @@
+# Hugo build output
+/public/
+/resources/
+.hugo_build.lock
+hugo_stats.json
+.hugo_cache/
+
+# Node (Blowfish Tailwind pipeline, 如果本地构建会用)
+node_modules/
+package-lock.json.bak
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# 环境变量（避免泄漏密钥）
+.env
+.env.local

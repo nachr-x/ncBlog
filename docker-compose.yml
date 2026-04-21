@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  hugo-dev:
+    #image: hugomods/hugo:debian-exts-non-root-0.159.1
+    image: hugomods/hugo:debian-std-node-0.160.1
+    command: server --bind 0.0.0.0 --baseURL http://localhost:1313 --buildDrafts
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src   # 挂载当前目录，方便实时预览
+
+  hugo-prod:
+    build: .
+    container_name: hugo-blog
+    ports:
+      - "8080:80"

@@ -1,0 +1,10 @@
+/* 首页 profile 头像尺寸缩小
+  - 6rem = 96px（推荐，原来 1.5 倍缩小）
+  - 5rem = 80px（更小）
+  - 4rem = 64px（迷你）
+  - 7rem = 112px
+*/
+img.mb-2.h-36.w-36.rounded-full {
+  height: 6rem;
+  width: 6rem;
+}

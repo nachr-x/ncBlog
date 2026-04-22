@@ -1,3 +1,7 @@
+www.nachr.top {
+    redir https://nachr.top{uri} permanent
+}
+
 nachr.top {
     root * /srv/public
     file_server

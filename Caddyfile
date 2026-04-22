@@ -1,0 +1,11 @@
+nachr.top {
+    root * /srv/public
+    file_server
+    encode gzip
+
+    # 404 页面
+    handle_errors {
+        rewrite * /404.html
+        file_server
+    }
+}

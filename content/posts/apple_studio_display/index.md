@@ -1,5 +1,5 @@
 ---
-title: "Apple Studio Display 使用体验"
+title: "Studio Display XDR使用体验"
 date: 2025-09-30T21:01:37Z
 draft: false
 showHero: true

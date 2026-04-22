@@ -1,6 +1,9 @@
 ---
 title: "About me"
 showDate: false
+showHero: true
+heroStyle: "background"
+#hideFeatureImage: true
 ---
 
 毕业于合肥工业大学电子信息工程系  

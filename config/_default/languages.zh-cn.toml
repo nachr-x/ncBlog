@@ -9,28 +9,26 @@ title = "NAN CHE"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  #logo = "img/ncc.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
-# copyright = "版权所有 © 2026 nachr.top | 本站内容采用 CC BY-NC-SA 4.0 协议"
+  # copyright = "版权所有 © 2026 nachr.top | 本站内容采用 CC BY-NC-SA 4.0 协议"
   copyright = """
   <p>
   版权所有 © 2026 <a href="https://nachr.top" target="_blank">nachr.top</a> |
   内容遵循
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 协议</a>
-</p>
-"""
+  </p>
+  """
 
 [params.author]
    name = "nachr"
    email = "nachr.dev@outlook.com"
-   image = "img/ncc.png"
-   #image = "img/nachr-logo-blue.svg"
+   image = "img/nc.png"
    imageQuality = 100
    # headline = "Network · K8S · AI · Robot"
    bio = "Network · AI · Robot"
    links = [
-     { email = "mailto:nachr.dev@outlook.com" },
+      { email = "mailto:nachr.dev@outlook.com" },
 #     { rss = "mailto:nachr.dev@outlook.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -44,7 +42,7 @@ title = "NAN CHE"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-     { github = "https://github.com/nachr1" },
+      { github = "https://github.com/nachr1" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
@@ -77,7 +75,7 @@ title = "NAN CHE"
 #     { tumblr = "https://username.tumblr.com" },
 #     { twitch = "https://twitch.tv/username" },
 #     { twitter = "https://twitter.com/username" },
-     { x-twitter = "https://twitter.com/nachr813" },
+      { x-twitter = "https://twitter.com/nachr813" },
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },

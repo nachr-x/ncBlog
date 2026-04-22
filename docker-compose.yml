@@ -13,6 +13,7 @@ services:
   hugo-build:
     image: hugomods/hugo:debian-std-node-non-root-0.160.1
     command: --minify
+    user: root
     volumes:
       - .:/src
     profiles:
@@ -23,6 +24,9 @@ services:
   web:
     image: caddy:alpine
     restart: unless-stopped
+    dns:
+      - 8.8.8.8
+      - 114.114.114.114
     ports:
       - "80:80"
       - "443:443"

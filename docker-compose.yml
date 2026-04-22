@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   hugo-dev:
     #image: hugomods/hugo:debian-exts-non-root-0.159.1

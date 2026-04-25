@@ -2,9 +2,6 @@
 title: "Studio Display XDR使用体验"
 date: 2025-09-30T21:01:37Z
 draft: false
-showHero: true
-heroStyle: "background"
-hideFeatureImage: true
 ---
 
 ## 连接Windows

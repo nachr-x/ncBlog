@@ -1,7 +1,7 @@
 services:
   # 本地开发
   hugo-dev:
-    image: hugomods/hugo:debian-std-node-non-root-0.160.1
+    image: hugomods/hugo:debian-std-node-git-non-root-0.160.1
     command: server --bind 0.0.0.0 --baseURL http://localhost:1313 --buildDrafts --disableFastRender
     ports:
       - "1313:1313"
@@ -11,7 +11,7 @@ services:
   # 构建静态文件（一次性任务，不常驻）
   # 用法：docker compose --profile build run --rm hugo-build
   hugo-build:
-    image: hugomods/hugo:debian-std-node-non-root-0.160.1
+    image: hugomods/hugo:debian-std-node-git-non-root-0.160.1
     command: --minify
     user: root
     volumes:

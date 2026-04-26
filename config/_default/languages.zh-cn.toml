@@ -6,11 +6,12 @@ title = "NAN CHE"
 
 [params]
   displayName = "中文"
-  isoCode = "en"
+  isoCode = "zh-CN"
   rtl = false
   dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  # description = "nachr的个人博客，记录网络、AI相关内容"
   # copyright = "版权所有 © 2026 nachr.top | 本站内容采用 CC BY-NC-SA 4.0 协议"
   copyright = """
   <p>
@@ -29,7 +30,7 @@ title = "NAN CHE"
    bio = "Network · AI · Robot"
    links = [
       { email = "mailto:nachr.dev@outlook.com" },
-#     { rss = "mailto:nachr.dev@outlook.com" },
+      { rss = "https://nachr.top/index.xml" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -42,7 +43,7 @@ title = "NAN CHE"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-      { github = "https://github.com/nachr1" },
+      { github = "https://github.com/nachr-x" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
@@ -69,15 +70,19 @@ title = "NAN CHE"
 #     { spotify = "https://open.spotify.com/user/userid" },
 #     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
 #     { steam = "https://steamcommunity.com/profiles/userid" },
+#     { strava = "https://www.strava.com/athletes/username" },
 #     { telegram = "https://t.me/username" },
 #     { threads = "https://www.threads.net/@username" },
 #     { tiktok = "https://tiktok.com/@username" },
 #     { tumblr = "https://username.tumblr.com" },
 #     { twitch = "https://twitch.tv/username" },
+#     { untappd = "https://untappd.com/user/username" },
 #     { twitter = "https://twitter.com/username" },
       { x-twitter = "https://twitter.com/nachr813" },
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
-   ]
+#     { printables = "https://www.printables.com/@username"},
+#   ]
+]

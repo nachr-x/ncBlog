@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "Blowfish"
+title = "NAN CHE"
 
 [params]
   displayName = "EN"
@@ -11,18 +11,26 @@ title = "Blowfish"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "nachr's personal blog about networking and AI"
   # copyright = "Copy, _right?_ :thinking_face:"
+  copyright = """
+  <p>
+  Copyright © 2026 <a href="https://nachr.top/en" target="_blank">nachr.top</a> |
+  Content licensed under
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+  </p>
+  """
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
-#   links = [
-#     { email = "mailto:hello@your_domain.com" },
+[params.author]
+   name = "nachr"
+   email = "nachr.dev@outlook.com"
+   image = "img/nc.png"
+   imageQuality = 100
+   # headline = "Network · K8S · AI · Robot"
+   bio = "Network · AI · Robot"
+   links = [
+      { email = "mailto:nachr.dev@outlook.com" },
+      { rss = "https://nachr.top/en/index.xml" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -35,7 +43,7 @@ title = "Blowfish"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-#     { github = "https://github.com/username" },
+      { github = "https://github.com/nachr-x" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
@@ -70,10 +78,10 @@ title = "Blowfish"
 #     { twitch = "https://twitch.tv/username" },
 #     { untappd = "https://untappd.com/user/username" },
 #     { twitter = "https://twitter.com/username" },
-#     { x-twitter = "https://twitter.com/username" },
+      { x-twitter = "https://twitter.com/nachr813" },
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
 #     { printables = "https://www.printables.com/@username"},
-#   ]
+  ]

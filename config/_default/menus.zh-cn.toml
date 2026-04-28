@@ -24,6 +24,7 @@
   name = "项目"
   pageRef = "project"
   weight = 30
+  
 #[[main]]
 #  name = "example sub-menu 1"
 #  parent = "Parent"

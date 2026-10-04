@@ -2,13 +2,24 @@ www.nachr.top {
     redir https://nachr.top{uri} permanent
 }
 
+# 本机私有站点（不入 git）：caddy_config/local/sites/*.caddy，无文件时忽略
+import /config/local/sites/*.caddy
+
 nachr.top {
     root * /srv/public
-    file_server
-    encode gzip
+
+    # 本机私有路由（不入 git）：caddy_config/local/nachr.top/*.caddy，无文件时忽略
+    import /config/local/nachr.top/*.caddy
+
+    # 博客
+    handle {
+        encode gzip
+        file_server
+    }
 
     # 404 页面
     handle_errors {
+        encode gzip
         rewrite * /404.html
         file_server
     }

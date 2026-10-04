@@ -21,3 +21,7 @@ package-lock.json.bak
 .env.local
 
 scripts/deploy.log
+
+# Caddy 运行数据（证书私钥、ACME 账户、自动保存配置及本机私有片段），绝不入库
+/caddy_data/
+/caddy_config/
